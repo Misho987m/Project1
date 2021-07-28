@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Interface</title>
+    <link rel="stylesheet" href="styles/style.css" >
+</head>
+<body>
+    <div class="container">
+        <header id="navbar">
+            <a href="#" class="logo">USB<span>INTERFACE</span></a>
+            <ul class="mainmenu">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="description.html">Описание</a></li>
+                <li><a href="types.html" class="active">Типове</a></li>
+                <li><a href="adapters.html">Преходници</a></li>
+            </ul>
+            <span class="menuIcon" onclick="menuToggle()"></span>
+        </header>
+        <hr width="50%"  size="3" color="#78ff00">
+        <div class="content">
+            <div class="bannerText">
+                 <h2>Type C USB</h2>
+                 <p>
+                    Най-новият USB стандарт, това е обратим кабел, който обещава по-високи
+                    скорости на трансфер и повече мощност в сравнение с предишните типове USB. 
+                    Освен това е способен да жонглира множество функции. Ще го видите на много 
+                    нови лаптопи и смартфони, включително MacBook, Pixel телефони и 
+                    Nintendo Switch Pro Controller. По-долу обсъждаме USB-C.
+                 </p>
+                 <a href="lightning.html">Следващ тип USB</a>
+            </div>
+            <div class="bannerImg">
+                <img src="images/typeC.jpg" >
+            </div>
+            
+        </div>
+
+        <div class="icons">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" width="50" height="50"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/instagram.png" width="50" height="50"></a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            var nav = document.getElementById('navbar')
+            nav.classList.toggle('active')
+        }
+    </script>
+
+    
+</body>
+</html>

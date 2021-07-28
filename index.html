@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Interface</title>
+    <link rel="stylesheet" href="styles/style.css" >
+</head>
+<body>
+    <div class="container">
+        <header id="navbar">
+            <a href="#" class="logo">USB<span>INTERFACE</span></a>
+            <ul>
+                <li><a href="index.html" class="active">Начало</a></li>
+                <li><a href="description.html">Описание</a></li>
+                <li><a href="types.html">Типове</a></li>
+                <li><a href="adapters.html">Преходници</a></li>
+            </ul>
+            <span class="menuIcon" onclick="menuToggle()"></span>
+        </header>
+        <hr width="50%"  size="3" color="#78ff00">
+        <div class="content">
+            <div class="bannerText">
+                <div>
+                    <h2>Какво е USB?</h2>
+                    <p>USB (Universal Serial Bus или “универсална серийна шина”) е стандарт 
+                        за свързване на две електронни устройства. За разлика от Bluetooth, 
+                        който представлява безжична технология, USB връзката винаги се осъщестявава
+                         само при наличието на USB кабел. Този кабел разполага с конектори и в 
+                         двата си края: единият се свързва с USB порта на първото устройство 
+                         (например смартфон или таблет), а вторият се свързва с USB порта на 
+                         второто устройство (например настолен или мобилен компютър).
+                    </p>
+                    <a href="description.html">Още..</a>
+                </div>
+            </div>
+            <div class="bannerImg">
+                <img src="images/img1.png" >
+            </div>
+        </div>
+        <div class="icons">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" width="50" height="50"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/instagram.png" width="50" height="50"></a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            var nav = document.getElementById('navbar')
+            nav.classList.toggle('active')
+        }
+    </script>
+
+    
+</body>
+</html>

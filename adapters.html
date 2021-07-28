@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Interface</title>
+    <link rel="stylesheet" href="styles/style.css" >
+</head>
+<body>
+    <div class="container">
+        <header id="navbar">
+            <a href="#" class="logo">USB<span>INTERFACE</span></a>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="description.html">Описание</a></li>
+                <li><a href="types.html">Типове</a></li>
+                <li><a href="adapters.html" class="active">Преходници</a></li>
+            </ul>
+            <span class="menuIcon" onclick="menuToggle()"></span>
+        </header>
+        <hr width="50%"  size="3" color="#78ff00">
+        <div class="content">
+            <table class="table">
+                <thead>
+                    <th>Type:</th>
+                    <th>Image:</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>USB 3.0 Type-A M to Type-C M, 1.0m</td>
+                        <td><img src="images/usb-3-0-type-a-m-to-type-c-m-1-0m.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td>USB Male to USB Micro Female Convertor OTG Adapter</td>
+                        <td><img src="images/usb-male-to-usb-micro-female-convertor-otg-adapter.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td>USB to 2x PS/2, Roline / VCOM</td>
+                        <td><img src="images/cu807-0-2m.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td>USB to iPhone 30p Data</td>
+                        <td><img src="images/am6002-w-am6002-w.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td>USB to eSATA Converter</td>
+                        <td><img src="images/roline-12-99-1060.jpeg"></td>
+                    </tr>
+                    <tr>
+                        <td>USB to IEEE1284</td>
+                        <td><img src="images/roline-12-99-1150.jpg"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="icons">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" width="50" height="50"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/instagram.png" width="50" height="50"></a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            var nav = document.getElementById('navbar')
+            nav.classList.toggle('active')
+        }
+    </script>
+
+    
+</body>
+</html>

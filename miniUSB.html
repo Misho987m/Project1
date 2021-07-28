@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Interface</title>
+    <link rel="stylesheet" href="styles/style.css" >
+</head>
+<body>
+    <div class="container">
+        <header id="navbar">
+            <a href="#" class="logo">USB<span>INTERFACE</span></a>
+            <ul class="mainmenu">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="description.html">Описание</a></li>
+                <li><a href="types.html" class="active">Типове</a></li>
+                <li><a href="adapters.html">Преходници</a></li>
+            </ul>
+            <span class="menuIcon" onclick="menuToggle()"></span>
+        </header>
+        <hr width="50%"  size="3" color="#78ff00">
+        <div class="content">
+            <div class="bannerText">
+                 <h2>Mini USB</h2>
+                 <p>
+                    По-малък тип конектор, който беше стандартен за мобилни устройства преди 
+                    micro-USB. Въпреки че не са толкова често срещани днес, все пак ще ги 
+                    видите на някои камери, контролера PlayStation 3, MP3 плейърите и други 
+                    подобни.
+                 </p>
+                 <a href="microUSB.html">Следващ тип USB</a>
+            </div>
+            <div class="bannerImg">
+                <img src="images/miniUSB.jpg" >
+            </div>
+            
+        </div>
+
+        <div class="icons">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" width="50" height="50"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="images/instagram.png" width="50" height="50"></a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            var nav = document.getElementById('navbar')
+            nav.classList.toggle('active')
+        }
+    </script>
+
+    
+</body>
+</html>
